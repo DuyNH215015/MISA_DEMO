@@ -1,0 +1,87 @@
+.display-flex {
+  display: flex;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.flex-direction-column {
+  flex-direction: column;
+}
+.justify-content-Around {
+  justify-content: space-around;
+}
+.justify-content-center {
+  justify-content: center;
+}
+.flex-direction-row {
+  flex-direction: row;
+}
+.justify-content-between {
+  justify-content: space-between;
+}
+.text-align-right {
+  text-align: right;
+}
+.flex1 {
+  flex: 1;
+}
+.nav-left {
+  padding-left: 19px;
+}
+.m-r-8 {
+  margin-right: 8px;
+}
+.g-8 {
+  gap: 8px;
+}
+
+.m-row {
+  width: 100%;
+  height: auto;
+  margin: 8px 0;
+}
+.dup-row {
+  height: 100%;
+  width: 50%;
+}
+.m-r-15 {
+  margin-right: 15px;
+}
+.bg-orange {
+  background-color: #f97316;
+}
+.align-items-right {
+  align-self: flex-end;
+}
+.justify-content-end {
+  justify-content: end;
+}
+
+.border-radius-right-0 {
+  border-top-right-radius: 0 !important;
+  border-bottom-right-radius: 0 !important;
+}
+/* dùng cho các input sau trước input palaceholder màu xám nhạt sau khi chọn option mất placeholder và thành màu  */
+.select-input {
+  width: 100%;
+  height: 32px;
+  padding: 0 36px 0 12px;
+  border: 1px solid #e0e6ec;
+  border-radius: 3px;
+  font-size: 14px;
+  font-family: Inter;
+  box-sizing: border-box;
+  color: rgb(178, 178, 178);
+  background-color: #fff;
+  cursor: pointer;
+  outline: none;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}

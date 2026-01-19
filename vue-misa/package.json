@@ -1,0 +1,37 @@
+{
+  "name": "vue-misa",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": "^20.19.0 || >=22.12.0"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "format": "prettier --write --experimental-cli src/"
+  },
+  "dependencies": {
+    "@ag-grid-enterprise/charts": "^32.3.9",
+    "@ag-grid-enterprise/column-tool-panel": "^32.3.9",
+    "@ag-grid-enterprise/menu": "^32.3.9",
+    "@ag-grid-enterprise/row-grouping": "^32.3.9",
+    "@ag-grid-enterprise/set-filter": "^32.3.9",
+    "@primevue/themes": "^4.5.4",
+    "ag-grid-community": "^35.0.0",
+    "ag-grid-vue3": "^35.0.0",
+    "axios": "^1.13.2",
+    "primeicons": "^7.0.0",
+    "primevue": "^4.5.4",
+    "vue": "^3.5.25",
+    "vue-router": "^4.6.3",
+    "vue3-easy-data-table": "^1.5.47"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^6.0.2",
+    "prettier": "3.6.2",
+    "vite": "^7.2.4",
+    "vite-plugin-vue-devtools": "^8.0.5"
+  }
+}
